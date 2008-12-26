@@ -1,0 +1,28 @@
+MbSmtp
+======
+
+MbSmtp is a SMTP client (extended from Net::SMTP) for sending messages to mobile-phone in Japan.
+
+* features
+  * controlling the flows of messages per one SMTP session.
+  * retrying to send messages on blocked by carrier-gateway.
+  * cleaning mail-addresses detected as User-Known in session.
+  * reporting the result of a SMTP session.
+    (requested messages count, sent messages count, error addresses, etc.)
+
+Example
+=======
+
+See spec/mb_smtp/*.rb files or http://github.com/tmtysk
+
+Notice
+======
+
+This software is released under the MIT license (see MIT-LICENSE file),
+but permission is granted conditionally,
+
+ * Don't abuse this software.
+
+Thank you for your cooperation.
+
+Copyright (c) 2008 tmtysk, released under the MIT license
